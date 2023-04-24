@@ -39,6 +39,9 @@ M.mason = {
     -- c/cpp stuff
     "clangd",
     "clang-format",
+
+    --c#
+    --"omnisharp",
   },
 }
 

@@ -51,6 +51,19 @@ local plugins = {
     "p00f/clangd_extensions.nvim",
   },
 
+
+  -- c#
+  -- {
+  --   "OmniSharp/omnisharp-vim",
+  -- },
+  -- {
+  --   "OmniSharp/omnisharp-roslyn",
+  -- },
+  {
+    "Hoffs/omnisharp-extended-lsp.nvim",
+  },
+
+  
   -- To make a plugin not be loaded
   -- {
   --   "NvChad/nvim-colorizer.lua",
