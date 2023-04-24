@@ -6,6 +6,7 @@ A user configuration template for [NvChad](https://github.com/NvChad/NvChad)
 ## Prereqs
 
 csharp-ls
+
 dotnet
 
 ``` 
