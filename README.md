@@ -2,6 +2,16 @@
 
 A user configuration template for [NvChad](https://github.com/NvChad/NvChad)
 
+
+## Prereqs
+
+csharp-ls
+dotnet
+
+``` 
+dotnet tool install --global csharp-ls
+``` 
+
 ## 🛠️ Installation
 
 #### Make a backup of your current nvim and shared folder
@@ -45,3 +55,6 @@ git clone https://github.com/Johanw123/jape_nvchad_config $HOME\AppData\Local\nv
 ```shell
 nvim
 ```
+
+
+
