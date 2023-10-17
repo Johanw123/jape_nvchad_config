@@ -5,7 +5,3 @@
 --   pattern = "*",
 --   command = "tabdo wincmd =",
 -- })
---
---
-
-vim.o.shell = "pwsh"
