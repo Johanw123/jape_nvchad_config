@@ -8,6 +8,9 @@ A user configuration template for [NvChad](https://github.com/NvChad/NvChad)
 * dotnet
 * csharp-ls
 
+* choco install ripgrep
+* choco install fzf
+
 ``` 
 dotnet tool install --global csharp-ls
 ``` 
