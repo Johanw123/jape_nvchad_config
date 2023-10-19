@@ -51,6 +51,10 @@ local plugins = {
     "p00f/clangd_extensions.nvim",
   },
 
+  {
+    "vijaymarupudi/nvim-fzf"
+  },
+  { 'nvim-telescope/telescope-fzf-native.nvim', build = 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build' },
 
   -- c#
   -- {
@@ -71,5 +75,7 @@ local plugins = {
   -- },
 
 }
+
+
 
 return plugins

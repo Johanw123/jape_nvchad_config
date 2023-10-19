@@ -51,7 +51,7 @@ M.telescope =
     file_ignore_patterns = { 
       "*.obj" 
     }
-  }
+  },
 }
 
 -- git support in nvimtree
