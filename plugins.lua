@@ -67,6 +67,35 @@ local plugins = {
     "Hoffs/omnisharp-extended-lsp.nvim",
   },
 
+  {
+    "ThePrimeagen/harpoon"
+  },
+
+  --["folke/which-key.nvim"] = {
+  --  disable = false,
+  --  config = function()
+  --    require("plugins.configs.whichkey")
+  --    local present, wk = pcall(require, "which-key")
+  --    if not present then
+  --      return
+  --    end
+  --    wk.register(
+  --      {
+  --        -- add group
+  --        ["<leader>"] = {
+  --          h = {name="harpoon"},
+  --          --f = {name="+file"},
+  --          --b = {name="+buffer"},
+  --          --g = {name="+git"},
+  --          --s = {name="+shell"},
+  --        }
+  --      }
+  --    )
+  --  end,
+  --  setup = function()
+  --    require("core.utils").load_mappings "whichkey"
+  --  end,
+  --},
   
   -- To make a plugin not be loaded
   -- {
